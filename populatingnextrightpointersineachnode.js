@@ -56,7 +56,7 @@ function dfs(node, level) {
     dfs(node.left, level + 1)
     dfs(node.right, level + 1)
 }
-dfs(root, 0)
+dfs(tree.root, 0)
 
 for (let arr of result) {
     for (let i = 0; i < arr.length; i++) {
